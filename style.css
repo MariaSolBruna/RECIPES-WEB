@@ -1,0 +1,526 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* ESTILO NAV */
+
+.nav_ul_responsive {
+    display: none;
+}
+
+.nav {
+    background-color: #f0dca5;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    padding-top: 6px;
+}
+
+.brand img {
+    width: 110px;
+    height: 110px;
+}
+
+.nav_li {
+    display: inline-block;
+}
+
+.nav_li:hover>a {
+    color: rgb(236, 106, 197)
+}
+
+.nav_li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2.2em;
+    padding: 8px 25px 8px 25px;
+}
+
+/* ESTILO CAJAS */
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.flex-item-img {
+    justify-content: center;
+    align-self: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.flex-item-img img {
+    width: 450px;
+    height: 320px;
+
+}
+
+.flex-item-text {
+    background-image: url("Images/Fondos/pink-stain-brush-free-vector2.jpg");
+    background-size: cover;
+    font-size: 40px;
+    text-align: center;
+    align-self: center;
+    width: 50%;
+
+}
+
+.flex-container2 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item2 {
+    background-color: #fde8af;
+    color: rgb(3, 3, 3);
+    width: 600px;
+    height: 500px;
+    padding: 30px 20px 60px 20px;
+    margin: 60px;
+    text-align: center;
+    border: 7px solid rgb(233, 163, 204);
+    border-radius: 2rem;
+}
+
+/* ESTILOS ABOUT US */
+
+.flex-container-about {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.flex-container-about h2 {
+    font-family: 'Ms Madi', cursive;
+    font-size: 85px;
+    font-weight: normal;
+}
+
+.would-about {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.swipeDown-about {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.flex-item-img-about {
+    justify-content: center;
+    align-self: center;
+    margin: 20px 20px 20px 80px;
+    padding: 20px;
+}
+
+.flex-item-img-about img {
+    width: 300px;
+    height: 320px;
+}
+
+.flex-item2 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+.flex-item-text-about {
+    background-image: url("Images/Fondos/pink-stain-brush-free-vector4.jpg");
+    background-size: cover;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 50%;
+}
+
+.title-another {
+    font-family: 'Ms Madi', cursive;
+    font-size: 55px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ESTILOS CAJAS (ABOUT) */
+
+.main-container-world {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.flex-container-world {
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.flex-item-world {
+    color: rgb(3, 3, 3);
+    width: 350px;
+    height: 550px;
+    padding: 20px;
+    margin: 10px 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.flex-item-world h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+}
+
+.img-world {
+    width: 350px;
+    height: 500px;
+    border-radius: 3rem;
+}
+
+.flex-item-world:hover .img-world {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+
+
+/* ESTILO CAJAS BANNER */
+
+.welcome {
+    font-size: 1.8rem;
+}
+
+.flex-container h2 {
+    font-size: 7rem;
+    font-family: 'Ms Madi', cursive;
+    font-weight: normal;
+}
+
+.swipeDown {
+    margin-top: 60px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ESTILO TITULO RECETAS */
+
+.textRecipes {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Ms Madi', cursive;
+}
+
+/* ESTILO TARJETAS */
+
+.flex-item2 img {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15rem;
+}
+
+.flex-item2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-item2 h3 {
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.flex-item2 p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* ESTILO DECORACION */
+
+.decoPink {
+    background-image: url("Images/Fondos/decoPink.png");
+    width: 100%;
+    height: 130px;
+    background-size: contain;
+    margin-bottom: 20px;
+
+}
+
+/* ESTILO FOOTER */
+
+footer {
+    background-color: #f0dca5;
+    padding: 20px;
+}
+
+.container-footer {
+    width: 90%;
+}
+
+.container-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul p {
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+
+/* ESTILO CAKES SECTIONS */
+
+.flex-container-cake {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+
+.flex-container-cake h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(252, 186, 231);
+    border-radius: 10px;
+    letter-spacing: 5px;
+}
+
+.flex-item-cake img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15rem;
+    margin-top: 30px;
+}
+
+/* ESTILO INGREDIENTS AND STEPS */
+
+.container-ing-steps {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.flex-item-ingredients {
+    width: 30%;
+    font-size: 30px;
+    border: 5px solid rgb(252, 186, 231);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.title-ingredients {
+    font-family: 'Ms Madi', cursive;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 10px 3px 2px rgb(252, 186, 231);
+}
+
+.flex-item-steps {
+    width: 46%;
+    font-size: 28px;
+    padding: 20px 20px 10px;
+    margin: 20px;
+}
+
+.title-steps {
+    font-family: 'Ms Madi', cursive;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 10px 3px 2px rgb(252, 186, 231);
+}
+
+.nut-facts {
+    margin-bottom: 50px;
+}
+
+h5 {
+    font-family: 'Ms Madi', cursive;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 10px 3px 2px rgb(252, 186, 231);
+    font-weight: normal;
+}
+
+.text-facts {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.icon-final {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon-final img {
+    width: 150px;
+    height: 150px;
+}
+
+/* ESTILO CONTACT US */
+
+.flex-container-contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 100px;
+    border: 5px solid rgb(252, 186, 231);
+    border-radius: 60px;
+}
+
+.form {
+    min-width: 200px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 7px;
+    margin: 10px 20px;
+    border-color: #bea04e;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.form-textarea {
+    min-height: 100px;
+    width: 100%;
+    padding: 7px;
+    margin: 10px 20px;
+    border-color: #bea04e;
+    border-radius: 15px;
+    border-width: 2px;
+    font-size: 20px;
+}
+
+.form-img {
+    flex: 1;
+    display: flex;
+}
+
+.form-img img {
+    width: 60%;
+    margin: auto;
+}
+
+.text-submit {
+    font-family: 'Ms Madi', cursive;
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 10px 3px 2px rgb(252, 186, 231);
+}
+
+.title-submit {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-title-submit {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.title-submit-span {
+    background-color: rgb(252, 186, 231, 0.7);
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 35px;
+}
+
+.thanks-text {
+    text-align: center;
+    margin: 50px;
+    font-size: 25px;
+    letter-spacing: 7px;
+    font-weight: bold;
+}
+
+.send-button {
+    font-size: 20px;
+    letter-spacing: 8px;
+    padding: 5px 0px 5px 5px;
+    font-weight: bold;
+    border: 4px solid rgb(252, 186, 231);
+    border-radius: 10px;
+    background-color: rgb(247, 208, 234);
+}
+
+.send-button:hover {
+    background-color: #fde8af;
+}
+
+::placeholder {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+/* ESTILO NAV RESPONSIVE */
+
+@media only screen and (max-width: 500px) {
+    .nav_ul {
+        display: none;
+    }
+
+    .nav_ul_responsive {
+        display: block;
+        position: absolute;
+        width: 100%;
+        background-color: #f0dca5;
+        text-align: right;
+    }
+
+    .nav_li_responsive {
+        width: 100%;
+        padding: 6px 15px 15px 0;
+    }
+
+    .nav_li_responsive a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        padding: 12px;
+    }
+
+    .nav {
+
+        width: 100%;
+    }
+
+    .brand img {
+        width: 80px;
+        height: 80px;
+    }
+}
