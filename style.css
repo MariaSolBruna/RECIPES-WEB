@@ -524,3 +524,348 @@ h5 {
         height: 80px;
     }
 }
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1300px) {
+
+    .flex-container {
+        width: 95vw;
+    }
+
+    .flex-container2 {
+        width: 100%;
+    }
+
+    .flex-item2 {
+        width: 42%;
+        margin: 15px;
+    }
+
+    .flex-item-text-about {
+        background-image: none;
+}
+
+    .would-about {
+        width: 100%;
+        font-size: 25px;
+        margin: 0;
+        margin-bottom: 10px;
+        background-color: rgb(248, 203, 234);
+        border-radius: 10px;
+    }
+
+    .flex-item-text-about h2 {
+        width: 100%;
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .swipeDown-about {
+        width: 100%;
+        font-size: 27px;
+        margin-top: 15px;
+    }
+
+    .flex-item-img-about {
+        margin: 0;
+    }
+
+    .flex-container-about {
+        margin-bottom: 0;
+    }
+
+    .flex-container-world {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .flex-item-world {
+        width: 42%;
+    }
+
+    .flex-container-contact {
+        margin-bottom: 0;
+    }
+
+    .flex-container-contact form {
+        width: 100%;
+    }
+
+    .form {
+        padding: 0;
+    }
+
+    .form-input {
+        width: 85%;
+        margin: 5px;
+    }
+
+    .form-textarea {
+        width: 85%;
+        height: 15vh;
+    }
+
+    .send-button {
+        margin-bottom: 10px;
+    }
+
+    .title-submit {
+        margin: 40% auto 15px auto;
+        width: 92%;
+    }
+
+    .title-submit-span {
+        font-size: 18px;
+    }
+
+    .text-title-submit {
+        font-size: 20px;
+    }
+
+    .text-submit {
+        font-size: 40px;
+    }
+
+    .thanks-text {
+        margin: 25px;
+    }
+
+    .icon-final img {
+        width: 80px;
+        height: 80px;
+
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 800px) {
+    
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        /* este margin top es porque sino el header me tapa las letras de abajo */
+        margin-top: 40%;
+        width: 100vw;
+    }
+
+    .flex-item-img img {
+        width: 60vw;
+        height: 20vh;
+        margin-bottom: 0;
+    }
+
+    .flex-item-text {
+        width: 90vw;
+    }
+
+    .welcome {
+        font-size: 6vw;
+    }
+
+    .would {
+        font-size: 8vw;
+        background-color: rgb(248, 203, 234);
+        border-radius: 10px;
+    }
+
+    .flex-container h2 {
+        font-size: 18vw;
+        flex-wrap: nowrap;
+    }
+
+    .flex-item-text {
+        background-image: none;
+    }
+
+    .swipeDown {
+        font-size: 65%;
+        margin-top: 20px;
+        margin-bottom: 2px;
+        padding-bottom: 0;
+    }
+
+    .textRecipes {
+        font-size: 18vw;
+        margin-top: 0;
+    }
+
+    .flex-container2 {
+        width: 100%;
+    }
+
+    .flex-item2 {
+        width: 100%;
+        margin: 10px;
+        padding: 0;
+        height: 380px;
+    }
+
+    .flex-item2 img {
+        height: 250px;
+        width: 250px;
+        padding: 20px;
+        border-radius: 15rem;
+    }
+    
+    .flex-item2 a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .flex-item2 h3 {
+        font-size: 25px;
+        letter-spacing: 4px;
+        margin-top: 5px;
+    }
+    
+    .flex-item2 p {
+        font-size: 1.5rem;
+    } 
+
+    .flex-container-about {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 95vw;
+        margin: 5px;
+    }
+
+
+    .flex-item-text-about {
+        width: 100%;
+        padding: 5px;
+        margin-top: 30%;
+        padding-left: 15px;
+    }
+
+    .flex-item-text-about h2 {
+        width: 100%;
+        font-size: 33px;
+        margin-bottom: 10px;
+    }
+
+    .would-about {
+        width: 100%;
+        font-size: 20px;
+        margin: 0;
+        margin-bottom: 10px;
+        background-color: rgb(248, 203, 234);
+        border-radius: 10px;
+    }
+
+    .swipeDown-about {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .flex-item-img-about img {
+        display: none;
+    }
+
+    .flex-item-img-about {
+        margin: 0;
+        padding: 0;
+    }
+
+    .flex-item-text-about {
+        background-image: none;
+
+    }
+
+    .title-another {
+        width: 80vw;
+        font-size: 32px;
+        margin-top: 30px;
+        border: 2px solid #dfd3b1;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flex-container-world {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .flex-item-world {
+        margin: 0;
+        padding: 0;
+        width: 45vw;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .flex-item-world h3 {
+        font-size: 20px;
+        letter-spacing: 0;
+        margin: 7px;
+    }
+
+    .flex-item-world img {
+        width: 130px;
+        height: 210px;
+    }
+
+    .flex-container-contact {
+        width: 95%;
+        margin: 5px
+    }
+
+    .form-img {
+        display: none;
+    }
+
+    .flex-container-contact form {
+        width: 95%;
+    }
+
+    .form {
+        padding: 0;
+    }
+
+    .form-input {
+        width: 80%;
+        margin: 5px;
+    }
+
+    .form-textarea {
+        width: 80%;
+        height: 15vh;
+    }
+
+    .send-button {
+        margin-bottom: 5px;
+    }
+
+    .thanks-text {
+        font-size: 18px;
+        letter-spacing: 0;
+        margin: 25px 5px;
+    }
+
+    .icon-final {
+        display: none;
+    }
+
+    .title-submit {
+        margin-bottom: 20px;
+    }
+
+    .title-submit-span {
+        font-size: 17px;
+    }
+
+    .text-title-submit {
+        font-size: 20px;
+    }
+
+    .text-submit {
+        font-size: 40px;
+    }
+}
